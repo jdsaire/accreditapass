@@ -29,14 +29,14 @@ jobs:
       - name: Publish Blazor WebAssembly app
         run: dotnet publish src/frontend -c Release -o publish --nologo
 
-      # GitHub Pages project sites serve under /fifa-press-app/,
+      # GitHub Pages project sites serve under /accreditapass/,
       # not "/". This rewrites <base href> only in the CI-produced publish
       # output — the tracked source at src/frontend/wwwroot/index.html is
       # never touched, so local `dotnet run` and Codespaces keep working
       # against base href "/".
       - name: Fix base href for GitHub Pages subpath
         run: |
-          sed -i 's|<base href="/" />|<base href="/fifa-press-app/" />|' publish/wwwroot/index.html
+          sed -i 's|<base href="/" />|<base href="/accreditapass/" />|' publish/wwwroot/index.html
 
       # GitHub Pages is a static host with no server-side routing: a direct
       # request to a deep link like /events/3 would 404 before Blazor ever
@@ -54,7 +54,7 @@ jobs:
             <meta charset="utf-8">
             <title>Redirecting…</title>
             <script>
-              var basePath = "/fifa-press-app";
+              var basePath = "/accreditapass";
               var path = location.pathname.slice(basePath.length) + location.search + location.hash;
               location.replace(basePath + "/?redirect=" + encodeURIComponent(path));
             </script>
@@ -69,7 +69,7 @@ jobs:
                   var params = new URLSearchParams(location.search);
                   var redirect = params.get("redirect");
                   if (redirect) {
-                    // location.pathname here is "/fifa-press-app/"
+                    // location.pathname here is "/accreditapass/"
                     // (trailing slash, since we're at the site root). Strip it
                     // before appending redirect (which already starts with "/")
                     // to avoid producing a double slash.
