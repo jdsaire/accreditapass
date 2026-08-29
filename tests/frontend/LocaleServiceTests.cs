@@ -131,14 +131,13 @@ public class LocaleServiceTests
     public void TheProductNameNeverTranslates()
     {
         // 11 §3's rule: a name that identifies the product stays English; a name
-        // that identifies what a person is looking at translates. "FIFA Press
-        // App" is the first; "My Requests" is the second, and the test above
-        // covers it.
+        // that identifies what a person is looking at translates. "AccreditaPass"
+        // is the first; "My Requests" is the second, and the test above covers it.
         var locale = LocaleTestData.Loaded();
 
         foreach (var which in LocaleService.All)
         {
-            Assert.Equal("FIFA Press App", locale[which, "app.name"]);
+            Assert.Equal("AccreditaPass", locale[which, "app.name"]);
         }
     }
 
