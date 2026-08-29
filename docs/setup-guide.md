@@ -9,7 +9,7 @@ This guide covers installing the toolchain on your own machine. If you'd rather 
 You don't need to install Git or know any Git commands.
 1. Click the green **Code** button at the top of this repository's GitHub page.
 2. Choose **Download ZIP**.
-3. Find the downloaded ZIP file (usually in your Downloads folder) and unzip/extract it. You'll get a folder named `fifa-press-app-main`.
+3. Find the downloaded ZIP file (usually in your Downloads folder) and unzip/extract it. You'll get a folder named `accreditapass-main`.
 
 ## 2. Install the tools you need
 
@@ -21,7 +21,7 @@ This project is written in C# and runs on Blazor WebAssembly, part of Microsoft'
 ## 3. Open the project
 
 1. Open Visual Studio Code.
-2. Go to **File → Open Folder…** and select the `fifa-press-app-main` folder you unzipped in Step 1.
+2. Go to **File → Open Folder…** and select the `accreditapass-main` folder you unzipped in Step 1.
 3. In the file explorer on the left, expand `src/frontend` to see the project files.
 
 ## 4. Run the app

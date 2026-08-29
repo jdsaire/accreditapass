@@ -16,7 +16,7 @@
 // convention, so a fourth theme string cannot reach applyTheme by accident, and
 // the storage read that has always narrowed to those two values now says so in
 // a way the compiler enforces.
-const STORAGE_KEY = 'fifa-press-app.theme';
+const STORAGE_KEY = 'accreditapass.theme';
 function isTheme(value) {
     return value === 'light' || value === 'dark';
 }

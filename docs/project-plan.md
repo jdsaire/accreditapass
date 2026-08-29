@@ -1,6 +1,6 @@
 # Project Plan
 
-The FIFA Press App: a media-accreditation tool letting journalists browse World Cup matches and request facility access for one. Originally built as the Course 4 capstone project (three graded Activities: Foundation, Debug & Optimize, Expansion), later adapted into this app's own scenario without touching its underlying architecture.
+AccreditaPass: a media-accreditation tool letting journalists browse World Cup matches and request facility access for one. Originally built as the Course 4 capstone project (three graded Activities: Foundation, Debug & Optimize, Expansion), later adapted into this app's own scenario without touching its underlying architecture.
 
 ## Requirements & Objectives
 
@@ -17,7 +17,7 @@ The FIFA Press App: a media-accreditation tool letting journalists browse World 
 **Non-functional requirements**
 - Rendering model: Blazor WebAssembly only — no Server or Hybrid constructs.
 - Mock/in-memory data only — no database, no external API, no authentication.
-- Originally scoped within the Module 1–5 boundary of the Course 4 syllabus (project setup, components/lifecycle, binding/events/routing/state/forms, rendering models, AI-assisted development); the FIFA Press App adaptation keeps that same technical scope.
+- Originally scoped within the Module 1–5 boundary of the Course 4 syllabus (project setup, components/lifecycle, binding/events/routing/state/forms, rendering models, AI-assisted development); the AccreditaPass adaptation keeps that same technical scope.
 
 **Objectives**
 - Deliver a working Blazor WASM app that satisfies all three graded Activities (see [`grading-criteria.md`](grading-criteria.md)).

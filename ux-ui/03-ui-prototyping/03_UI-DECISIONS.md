@@ -125,9 +125,9 @@ Every colour token in §2.1 is computed against its correct WCAG 2.2 threshold (
 
 ## 4. The "EventEase" rebrand
 
-**Navbar brand:** `FIFA Press App` — matching the repository's own public name (`README.md`, already the app's external identity) rather than inventing a second name for internal chrome. Unchanged across EN/ES/PT: per Gate 2 §4.1 and §5, the app's own product-level names stay in English, matching how "Access Record" was decided.
+**Navbar brand:** `AccreditaPass` — matching the repository's own public name (`README.md`, already the app's external identity) rather than inventing a second name for internal chrome. Unchanged across EN/ES/PT: per Gate 2 §4.1 and §5, the app's own product-level names stay in English, matching how "Access Record" was decided.
 
-**Page `<title>` (host page, `wwwroot/index.html`):** `FIFA Press App` — the static boot-time title, locale-agnostic since it renders before Blazor establishes a locale. No per-page `<PageTitle>` system currently exists in the audited files; introducing one is a Gate 6/7 concern if the entity model calls for it, not decided here.
+**Page `<title>` (host page, `wwwroot/index.html`):** `AccreditaPass` — the static boot-time title, locale-agnostic since it renders before Blazor establishes a locale. No per-page `<PageTitle>` system currently exists in the audited files; introducing one is a Gate 6/7 concern if the entity model calls for it, not decided here.
 
 **Meta description:** `A media-accreditation companion for journalists covering the 2026 World Cup — see what's changed with your access, before you're turned away.` English, under 160 characters, written to name the concept's actual promise (Interaction 4.1/4.2) rather than generic app-store copy.
 

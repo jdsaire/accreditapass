@@ -1,6 +1,6 @@
 # Learning Mode
 
-A plain-language walkthrough of how the FIFA Press App was built and why, written for a reader with some general programming background but no prior experience with Blazor, front-end frameworks, or web development specifically.
+A plain-language walkthrough of how AccreditaPass was built and why, written for a reader with some general programming background but no prior experience with Blazor, front-end frameworks, or web development specifically.
 
 ## What's here
 

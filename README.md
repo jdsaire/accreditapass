@@ -1,4 +1,4 @@
-# FIFA Press App — Blazor WebAssembly frontend and ASP.NET Core API
+# AccreditaPass — Blazor WebAssembly frontend and ASP.NET Core API
 
 A media-accreditation companion for journalists covering the 2026 World Cup, in English, Spanish and Portuguese: sign in as one of two demo holders and see what your access currently permits, what has changed about it, and why — before you discover it by being refused. A Blazor WebAssembly frontend, and an ASP.NET Core Web API it can read from.
 
@@ -12,7 +12,7 @@ New to Blazor or .NET? [`docs/setup-guide.md`](docs/setup-guide.md) walks throug
 
 ## How to Use It
 
-The fastest way to see it: **https://jdsaire.github.io/fifa-press-app/** — no installation needed.
+The fastest way to see it: **https://jdsaire.github.io/accreditapass/** — no installation needed.
 
 To run it yourself instead — GitHub Codespaces or a local terminal — see [`docs/how-to-run.md`](docs/how-to-run.md).
 
@@ -75,4 +75,4 @@ A fixture that hasn't been played yet never names its teams — on any of these 
 
 ## Course Attribution
 
-This project originally followed the structure and grading rubric of the Coursera **Microsoft Front-End Developer** Professional Certificate's Course 4 capstone as a best-practices foundation — the same Blazor WebAssembly architecture, component patterns, and AI-assisted workflow are still visible throughout `src/`. It has since become Juan Diego Saire's own original adaptation and evolution: the FIFA Press App, reframing that foundation as a media-accreditation tool for journalists covering the 2026 World Cup. Per the original assignment's own instructions, an AI coding assistant was used across all three graded Activities — generating the foundation, debugging and optimizing it, then expanding it with advanced features.
+This project originally followed the structure and grading rubric of the Coursera **Microsoft Front-End Developer** Professional Certificate's Course 4 capstone as a best-practices foundation — the same Blazor WebAssembly architecture, component patterns, and AI-assisted workflow are still visible throughout `src/`. It has since become Juan Diego Saire's own original adaptation and evolution: AccreditaPass, reframing that foundation as a media-accreditation tool for journalists covering the 2026 World Cup. Per the original assignment's own instructions, an AI coding assistant was used across all three graded Activities — generating the foundation, debugging and optimizing it, then expanding it with advanced features.

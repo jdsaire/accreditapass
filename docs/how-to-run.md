@@ -1,10 +1,10 @@
-# How to Run the FIFA Press App
+# How to Run AccreditaPass
 
 Three ways to see this app, from easiest to most involved. All three end up showing you the same app.
 
 ## Path 1: View It Live — No Setup Required
 
-**https://jdsaire.github.io/fifa-press-app/**
+**https://jdsaire.github.io/accreditapass/**
 
 This is the app itself, hosted for free by GitHub Pages — a way to publish a built app as a public website, automatically updated every time the `main` branch changes. Just open the link in any browser. Nothing to install, nothing to run.
 

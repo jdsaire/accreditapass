@@ -96,10 +96,15 @@ public class InteropTests
     }
 
     [Fact]
-    public void TheThemeStorageKeyIsUnchangedByTheConversion()
+    public void TheThemeStorageKeyMatchesBetweenSourceAndCompiledOutput()
     {
-        // A different key would silently forget every existing visitor's choice.
-        Assert.Contains("'fifa-press-app.theme'", Compiled("theme.js"));
+        // The v16 product rename moved this key deliberately, resetting every
+        // existing visitor's saved theme exactly once. What must never drift is
+        // the source and the compiled output disagreeing about it — that would
+        // leave the app reading one key and writing another, with nothing at
+        // compile time to catch it.
+        Assert.Contains("'accreditapass.theme'", Source("theme.ts"));
+        Assert.Contains("'accreditapass.theme'", Compiled("theme.js"));
     }
 
     [Fact]
@@ -174,8 +179,8 @@ public class InteropTests
     {
         // One key for two settings would make choosing a language forget the
         // theme. They are siblings, not the same thing.
-        Assert.Contains("'fifa-press-app.theme'", Compiled("theme.js"));
-        Assert.Contains("'fifa-press-app.locale'", Compiled("locale.js"));
+        Assert.Contains("'accreditapass.theme'", Compiled("theme.js"));
+        Assert.Contains("'accreditapass.locale'", Compiled("locale.js"));
     }
 
     [Fact]

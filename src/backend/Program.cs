@@ -1,4 +1,4 @@
-// The FIFA Press App API — the first server this project has ever had.
+// The AccreditaPass API — the first server this project has ever had.
 //
 // WHAT THIS IS. A deliberately small ASP.NET Core Web API that serves the
 // accreditation record the Blazor frontend already knows how to display. The
@@ -135,8 +135,8 @@ if (!app.Environment.IsProduction())
 
 app.MapGet("/", () => Results.Ok(new
 {
-    name = "FIFA Press App API",
-    description = "Accreditation records and their change log, for the FIFA Press App frontend.",
+    name = "AccreditaPass API",
+    description = "Accreditation records and their change log, for the AccreditaPass frontend.",
     documentation = "/openapi/v1.json",
 }));
 

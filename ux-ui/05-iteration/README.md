@@ -1,7 +1,7 @@
 # Iteration & Realignment Dossier — Run 05
 
 *(The first dossier in this repository whose subject is a second interface rather than this one.
-`00`–`04` measured, researched, specified and re-evaluated the FIFA Press App on its own terms; this
+`00`–`04` measured, researched, specified and re-evaluated AccreditaPass on its own terms; this
 one reads a separate reference app — ShopEase, a course-mate's e-commerce build — and asks which of
 its patterns this app should adopt, which it should refuse, and what each adoption costs in
 decisions this codebase has already written down.)*

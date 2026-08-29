@@ -6,7 +6,7 @@
 
 ## 1. GitHub Repository (5 pts)
 
-This repository — [`jdsaire/fifa-press-app`](https://github.com/jdsaire/fifa-press-app), public, on `main`.
+This repository — [`jdsaire/accreditapass`](https://github.com/jdsaire/accreditapass), public, on `main`.
 
 ## 2. Event Card Component with Fields + Two-Way Data Binding (5 pts)
 

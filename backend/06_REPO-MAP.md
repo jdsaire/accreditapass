@@ -9,7 +9,7 @@ was right.
 
 A second application changes the arithmetic. With a frontend and a backend both
 under `src/`, a folder named after the product no longer distinguishes anything
-from anything: both are the FIFA Press App. Someone opening this repository for
+from anything: both are AccreditaPass. Someone opening this repository for
 the first time would have to guess which of the two folders held the browser
 code.
 
