@@ -1,6 +1,6 @@
 # docs/
 
-Project documentation — planning, setup, grading, and running the FIFA Press App. For a plain-language explanation of how the app itself works, see [`learning-mode/`](../learning-mode/) instead; these files are more reference-oriented.
+Project documentation — planning, setup, grading, and running AccreditaPass. For a plain-language explanation of how the app itself works, see [`learning-mode/`](../learning-mode/) instead; these files are more reference-oriented.
 
 For the backend specifically — the API reference, the middleware pipeline, how to deploy it — see [`backend/`](../backend/README.md), which is documentation rather than code.
 

@@ -28,7 +28,7 @@ The mandate instructed that this be re-derived rather than trusted. It was.
 | Claim | Status | Evidence |
 |---|---|---|
 | `main` @ `b37066d` | **Confirmed** | Full clone; `git log` HEAD is the merge commit for PR #9 |
-| PR [#9](https://github.com/jdsaire/fifa-press-app/pull/9) merged | **Confirmed** | `b37066d` = `Merge pull request #9 from jdsaire/deploy/v12-addendum-implementation` |
+| PR [#9](https://github.com/jdsaire/accreditapass/pull/9) merged | **Confirmed** | `b37066d` = `Merge pull request #9 from jdsaire/deploy/v12-addendum-implementation` |
 | `09_DESIGN-ADDENDUM.md` Final | **Confirmed** | Status line: Final, approved and injected at v11, 16 Aug 2026 |
 | `10_AUTH-AND-ONBOARDING.md` Final | **Confirmed** | Same status line |
 | `11_I18N.md` Final | **Confirmed** | Same status line |

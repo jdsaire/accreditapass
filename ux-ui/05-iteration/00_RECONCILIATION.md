@@ -6,7 +6,7 @@
 
 ## Sync confirmation
 
-`jdsaire/fifa-press-app` and `jdsaire/frontend_c6_ecommerce` were both re-fetched fresh
+`jdsaire/accreditapass` and `jdsaire/frontend_c6_ecommerce` were both re-fetched fresh
 (`codeload.github.com/.../tar.gz/refs/heads/main`, discarding the prior local clones first) before
 writing anything below. The GitHub REST API was rate-limited at fetch time, so HEAD SHAs could not
 be confirmed by commit hash; codeload serves the live default-branch tarball directly (no
