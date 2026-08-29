@@ -23,7 +23,7 @@
  */
 export type Theme = 'light' | 'dark';
 
-const STORAGE_KEY = 'fifa-press-app.theme';
+const STORAGE_KEY = 'accreditapass.theme';
 
 function isTheme(value: string | null): value is Theme {
     return value === 'light' || value === 'dark';

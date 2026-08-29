@@ -24,7 +24,7 @@
 // prose still marked lang="en" is read out by an English voice — technically
 // present, practically unusable. The language switch changes what the text says;
 // this is what changes what a screen reader does with it.
-const STORAGE_KEY = 'fifa-press-app.locale';
+const STORAGE_KEY = 'accreditapass.locale';
 function isLocaleCode(value) {
     return value === 'en' || value === 'es' || value === 'pt';
 }

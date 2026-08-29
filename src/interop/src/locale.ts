@@ -28,7 +28,7 @@
 /** The three languages the app is built in, as the codes the app stores. */
 export type LocaleCode = 'en' | 'es' | 'pt';
 
-const STORAGE_KEY = 'fifa-press-app.locale';
+const STORAGE_KEY = 'accreditapass.locale';
 
 function isLocaleCode(value: string | null): value is LocaleCode {
     return value === 'en' || value === 'es' || value === 'pt';
