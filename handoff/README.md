@@ -71,4 +71,18 @@ Records of each build run against this repo: the plan approved before the work s
   The published output is 320 of 329 files byte-identical, every difference a commit SHA or
   a build path. Tests: 512 → 512 frontend + 33 backend.
 
+- [`v16/`](v16/) — the rename. **FIFA Press App becomes AccreditaPass**: the repository
+  slug, the GitHub Pages URL, the shipped display name and the browser storage keys, across
+  40 live files. Three name layers exist here and exactly one changed — the `FifaPressApp`
+  namespace is byte-identical at 413 occurrences across 133 files, and the non-affiliation
+  disclaimer, the FIFA Event Media Operations contact and every World Cup reference survive
+  untouched, because the application is *about* the 2026 World Cup and says so. The four
+  hard-coded subpaths in `deploy-pages.yml` were the consequential edit: miss one and the
+  deployed app is a blank page behind a green build. Sequenced deliberately — rename commits,
+  merge, `gh repo rename`, then verify the live URL renders. A repo rename also invalidates
+  the Pages deployment, which the CDN hides for ten minutes; an explicit redeploy resolved it,
+  and the old Pages URL now 404s without forwarding. Also harmonizes `pt.json` to Brazilian
+  Portuguese, a dictionary already half-Brazilian and pinned that way by a test. Eleven
+  old-name occurrences are preserved as historical record. Tests: 512 → 512 frontend + 33
+  backend.
 Each version folder has its own README with more detail on what that run covered.
